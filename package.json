@@ -1,6 +1,6 @@
 {
-  "name": "passport-github",
-  "version": "1.1.0",
+  "name": "passport-github-scopes",
+  "version": "1.2.0",
   "description": "GitHub authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -15,12 +15,15 @@
     "email": "jaredhanson@gmail.com",
     "url": "http://www.jaredhanson.net/"
   },
+  "contributors": [
+    "Tim Mensch <tim-github-scopes@bitgems.com> (https://coderescue.guru)"
+  ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/jaredhanson/passport-github.git"
+    "url": "http://github.com/TimMensch/passport-github-scopes.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-github/issues"
+    "url": "http://github.com/TimMensch/passport-github-scopes/issues"
   },
   "license": "MIT",
   "licenses": [

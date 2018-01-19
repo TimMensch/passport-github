@@ -1,4 +1,4 @@
-# passport-github
+# passport-github-scopes
 
 [![Build](https://img.shields.io/travis/jaredhanson/passport-github.svg)](https://travis-ci.org/jaredhanson/passport-github)
 [![Coverage](https://img.shields.io/coveralls/jaredhanson/passport-github.svg)](https://coveralls.io/r/jaredhanson/passport-github)
@@ -7,7 +7,9 @@
 
 
 [Passport](http://passportjs.org/) strategy for authenticating with [GitHub](https://github.com/)
-using the OAuth 2.0 API.
+using the OAuth 2.0 API. Forked from [passport-github](https://github.com/jaredhanson/passport-github) and added the ability to
+detect what scopes GitHub *actually* grants (which can be different from the
+scopes you've requested).
 
 This module lets you authenticate using GitHub in your Node.js applications.
 By plugging into Passport, GitHub authentication can be easily and
